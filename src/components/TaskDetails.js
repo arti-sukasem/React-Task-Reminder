@@ -36,7 +36,7 @@ const TaskDetails = () => {
             <p>{pathname}</p>
             <h3>{task.text}</h3>
             <p>{task.day}</p>
-            <Button text="Go back" onClick={() => {navigate(-1)}}/>
+            <Button text="Go back" onClick={() => {navigate('/React-Task-Reminder')}}/>
         </div>
     )
 }

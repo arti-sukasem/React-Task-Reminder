@@ -86,7 +86,7 @@ function App() {
       <div className="container">
         <Header onAdd={() => setShowAddTask(!showAddTask)} showAdd={showAddTask}/>
         <Routes>
-        <Route path='/' 
+        <Route path='/React-Task-Reminder' 
         element={
           <>
             {showAddTask && <AddTask onAdd={addTask} />}
