@@ -26,7 +26,7 @@ const TaskDetails = () => {
     })
 
     if(error) {
-        return(<navigate to='/' />)
+        return(<navigate to='/React-Task-Reminder' />)
     }
 
     return loading ? (
